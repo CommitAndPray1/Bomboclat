@@ -4,24 +4,125 @@
 <head>
     <meta charset="UTF-8">
     <title>Should I...</title>
+
     <link rel="icon" type="image/png" href="logo.png">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
-    <div class="container">
-        <h1>Ask a Question</h1>
 
-        <input type="text" placeholder="Should I...">
+<body>
+
+    <div class="container">
+
+
+        <!-- First screen -->
+        <div id="question-screen">
+
+            <h1>Ask a Question</h1>
+
+            <input 
+                id="question-input"
+                type="text" 
+                placeholder="Should I..."
+            >
+
+            <br>
+
+            <button onclick="start()">
+                Continue
+            </button>
+
+        </div>
+
+
+
+        <!-- Second screen -->
+        <div id="thinking-screen" class="hidden">
+
+            <h1>
+                Don't rush.
+            </h1>
+
+        </div>
+
+
+
+
+        <!-- Third screen -->
+        <div id="choice-screen" class="hidden">
+
+            <h1>
+                Don't try to find the right answer.
+            </h1>
+
+
+            <p>
+                What answer comes to your mind right now?
+            </p>
+
+
+            <button onclick="reveal()">
+                YES
+            </button>
+
+
+            <button onclick="reveal()">
+                NO
+            </button>
+
+        </div>
+
+
+
+
+
+        <!-- Final screen -->
+        <div id="answer-screen" class="hidden">
+
+            <h1>
+                Then you already have your answer.
+            </h1>
+
+
+            <p>
+                Sometimes it is not something you find.<br>
+                It is something you uncover.<br><br>
+
+                All you need is a moment to give it a voice.
+            </p>
+
+
+            <button onclick="restart()">
+                Ask another question
+            </button>
+
+        </div>
+
+
     </div>
 
+
+
+
+
     <p class="disclaimer">
-        Disclaimer: This website is intended for reflection and entertainment only. It does not provide professional, medical, legal, financial, or relationship advice, and its responses should not be treated as factual or definitive. Always use your own judgment, especially for important decisions.
+
+        Disclaimer: This website is intended for reflection and entertainment only. 
+        It does not provide professional, medical, legal, financial, or relationship advice, 
+        and its responses should not be treated as factual or definitive. 
+        Always use your own judgment, especially for important decisions.
+
     </p>
+
+
+
+    <script src="script.js"></script>
 
 </body>
 
