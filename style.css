@@ -56,18 +56,23 @@ input::placeholder {
 input:focus {
     border-color: rgb(94, 89, 89);
 }
+
 .disclaimer {
     position: fixed;
     bottom: 20px;
     left: 50%;
+
     transform: translateX(-50%);
 
     width: 80%;
     max-width: 900px;
 
     text-align: center;
+
     font-size: 13px;
     color: rgba(255, 255, 255, 0.65);
 
     font-family: Arial, sans-serif;
+
+    text-shadow: none;
 }
