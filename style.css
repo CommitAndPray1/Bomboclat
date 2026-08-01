@@ -1,0 +1,7 @@
+body {
+    background-image: url("rain.jpg");
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    height: 100vh;
+}
