@@ -12,22 +12,19 @@ body {
 
     font-family: Arial, sans-serif;
 }
-
-.text-box {
-    background: rgba(0, 0, 0, 0.55);
-    padding: 20px;
-    margin: 40px;
-    border-radius: 10px;
+.container {
+    text-align: center;
 }
 
 h1 {
-    color: #FFD166;
+    font-size: 60px;
+    color: white;
 }
 
-a {
-    color: #7ED957;
-}
-
-p {
-    color: #E8F1F2;
+input {
+    width: 500px;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
 }
