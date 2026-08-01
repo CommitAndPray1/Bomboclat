@@ -1,20 +1,21 @@
 body {
-    background-image: url("leaves.jpg");
-    background-size: cover;
-    background-position: center;
-    margin: 0;
-    height: 100vh;
-}
-.text-box {
-    background: rgba(0, 0, 0, 0.5);
-    padding: 20px;
+    color: #F4E8C1;  /* warm cream text */
+    text-shadow: 2px 2px 5px #000;
 }
 
 h1 {
-    color: #d4af37;
+    color: #D9B44A;  /* soft gold */
+}
+
+h2 {
+    color: #E8C97A;  /* lighter gold */
 }
 
 a {
-    color: #9ccc65;
+    color: #A8D08D;  /* soft leaf green */
 }
-/* update test */
+
+.text-box {
+    background: rgba(20, 30, 20, 0.65); /* dark green-black */
+    padding: 20px;
+}
