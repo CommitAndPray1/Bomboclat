@@ -1,21 +1,33 @@
 body {
-    color: #F4E8C1;  /* warm cream text */
-    text-shadow: 2px 2px 5px #000;
-}
+    background-image: url("leaves.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 
-h1 {
-    color: #D9B44A;  /* soft gold */
-}
+    margin: 0;
+    min-height: 100vh;
 
-h2 {
-    color: #E8C97A;  /* lighter gold */
-}
+    color: #E8F1F2;
+    text-shadow: 2px 2px 5px black;
 
-a {
-    color: #A8D08D;  /* soft leaf green */
+    font-family: Arial, sans-serif;
 }
 
 .text-box {
-    background: rgba(20, 30, 20, 0.65); /* dark green-black */
+    background: rgba(0, 0, 0, 0.55);
     padding: 20px;
+    margin: 40px;
+    border-radius: 10px;
+}
+
+h1 {
+    color: #FFD166;
+}
+
+a {
+    color: #7ED957;
+}
+
+p {
+    color: #E8F1F2;
 }
