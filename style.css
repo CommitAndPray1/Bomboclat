@@ -9,3 +9,11 @@ body {
     background: rgba(0, 0, 0, 0.5);
     padding: 20px;
 }
+
+h1 {
+    color: #d4af37;
+}
+
+a {
+    color: #9ccc65;
+}
